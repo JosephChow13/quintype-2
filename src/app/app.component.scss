@@ -1,0 +1,89 @@
+header {
+    height: 89px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    h1 {
+        font-size: 32px;
+        font-weight: bold;
+        color: #000000;
+        margin: 0px;
+        margin-left: 20px;
+    }
+    .top {
+        margin-left: 40px;
+    }
+    .top a.menu_icon {
+        div {
+            width: 35px;
+            height: 2px;
+            background-color: #000000;
+            margin: 6px 0;
+        }
+    }
+}
+
+.container {
+    background-color: #f7f7f7;
+}
+
+.wrapper {
+    padding: 40px 134px;
+    background-color: #f4f4f4;
+    font-family: Lato;
+    .first-wrapper {
+        background-color: #ffffff;
+        .img-wrapper {
+            img {
+                width: 100%;
+            }
+        }
+        .desc-wrapper {
+            padding: 16px 50px;
+            .first-text {
+                font-size: 18px;
+                font-weight: bold;
+                border-bottom: 3px solid #edd30d;
+                width: 80px;
+            }
+            .second-text {
+                font-size: 34px;
+                line-height: 1.24;
+                color: #222222;
+                margin: 20px 0px;
+            }
+            .third-text {
+                font-size: 18px;
+                font-weight: normal; // line-height: 1.56;
+                // letter-spacing: normal;
+                color: #5c5c5c;
+                margin: 18px 0px;
+            }
+            .fourth-text {
+                margin: 40px 0px;
+                .fourth-img {
+                    display: inline-block;
+                    width: 54px;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .fourth-textname {
+                    display: inline-block;
+                    margin: 0px 20px;
+                    vertical-align: top;
+                    .name {
+                        font-size: 18px;
+                        color: #818181;
+                    }
+                    .time {
+                        font-size: 14px;
+                        font-weight: 300;
+                        color: #3d3d3d;
+                    }
+                }
+            }
+        }
+    }
+}
